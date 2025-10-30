@@ -40,7 +40,6 @@ useEffect(()=>{
     {
       if(Array.isArray(data))
         data=data[0];
-      console.log(data);
       setLocation(data.display_name)
       setURLForMeteo(`https://api.open-meteo.com/v1/forecast?latitude=${data.lat}&longitude=${data.lon}&daily=temperature_2m_max,temperature_2m_min,weather_code&hourly=temperature_2m,weather_code&current=temperature_2m,relative_humidity_2m,weather_code,wind_speed_10m,precipitation,apparent_temperature&timezone=auto&forecast_hours=12`);
     })
@@ -49,7 +48,6 @@ useEffect(()=>{
     fetch(URLForMeteo)
   .then(response => response.json())
   .then(data => {
-    console.log(data.current.time);
     setAPIData(data)
   })
 },[URLForMeteo]);
