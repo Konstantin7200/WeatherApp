@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/your-repo-name/static/css/main.2fa17fe0.css",
+    "main.js": "/your-repo-name/static/js/main.449efa1e.js",
+    "static/media/icon-fog.webp": "/your-repo-name/static/media/icon-fog.cfbc8851a50ab0a52986.webp",
+    "static/media/bg-today-large.svg": "/your-repo-name/static/media/bg-today-large.0ea745fe7292037130ab.svg",
+    "static/media/icon-sunny.webp": "/your-repo-name/static/media/icon-sunny.7cdcf41677289b5af443.webp",
+    "static/media/icon-partly-cloudy.webp": "/your-repo-name/static/media/icon-partly-cloudy.34557834b606885c72e5.webp",
+    "static/media/icon-rain.webp": "/your-repo-name/static/media/icon-rain.69df2f59fc4a3614bc71.webp",
+    "static/media/icon-drizzle.webp": "/your-repo-name/static/media/icon-drizzle.6993e60b5806e96c284a.webp",
+    "static/media/icon-storm.webp": "/your-repo-name/static/media/icon-storm.f80d71f5604f62da2bf9.webp",
+    "static/media/icon-snow.webp": "/your-repo-name/static/media/icon-snow.8eec387320a67003daf1.webp",
+    "static/media/icon-overcast.webp": "/your-repo-name/static/media/icon-overcast.35ade02c60e4f610ff0a.webp",
+    "index.html": "/your-repo-name/index.html",
+    "static/media/icon-search.svg": "/your-repo-name/static/media/icon-search.5b999ce184e338f3c5400eb82c107192.svg",
+    "main.2fa17fe0.css.map": "/your-repo-name/static/css/main.2fa17fe0.css.map",
+    "main.449efa1e.js.map": "/your-repo-name/static/js/main.449efa1e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2fa17fe0.css",
+    "static/js/main.449efa1e.js"
+  ]
+}
