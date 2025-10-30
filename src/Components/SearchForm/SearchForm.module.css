@@ -1,0 +1,42 @@
+.searchForm{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.searchForm>button{
+    background-color:  hsl(233, 67%, 56%);
+    padding:0 1rem;
+    border-radius: 0.3rem;
+    border: none;
+}
+.searchForm>button:active,.searchForm>button:hover{
+    background-color: hsl(248, 70%, 36%);
+    cursor: pointer;
+}
+.searchForm input{
+    cursor: pointer;
+}
+.searchForm>div{
+    background-color: hsl(243, 23%, 30%);
+    position: relative;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    border-radius: 0.3rem;
+}
+.searchForm input{
+    background-color: hsl(243, 23%, 30%);
+    border: none;
+    color: white;
+}
+.searchForm input:focus{
+    border: none;
+    outline: none;
+}
+
+.searchForm img{
+    position: absolute;
+    left: 3%;
+
+    width: 1rem;
+}

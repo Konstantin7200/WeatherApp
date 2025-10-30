@@ -1,0 +1,16 @@
+.infoBlock {
+  width: 23%;
+  font-size: 0.6rem;
+  gap:1rem;
+  padding: 0.8rem;
+  padding-right: 3rem;
+  border-radius: 0.6rem;
+  background-color: hsl(243, 23%, 30%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+.info{
+  font-size: 1.2rem;
+}

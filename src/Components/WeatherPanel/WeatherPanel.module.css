@@ -1,0 +1,22 @@
+.weatherPanel{
+    background-image:url("../../Assets/images/bg-today-large.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 3rem 1rem;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.horizontalCont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.horizontalCont>p{
+    font-size: 4rem;
+}

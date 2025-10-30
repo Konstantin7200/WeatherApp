@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans";
+}
+.App{
+    color: white;
+    background-color:hsl(243, 96%, 9%) ;
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    padding: 10rem 0;
+}
+.App>div{
+    display: flex;
+    flex-direction:row;
+    gap:1rem;
+}
+.App>div>div{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+@media(max-width:720px)
+{
+    .App{
+        width: 100%;
+    }
+}
