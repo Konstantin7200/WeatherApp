@@ -7,7 +7,7 @@
 .searchForm>button{
     background-color:  hsl(233, 67%, 56%);
     padding:0 1rem;
-    border-radius: 0.3rem;
+    border-radius: 0.5rem;
     border: none;
 }
 .searchForm>button:active,.searchForm>button:hover{
@@ -22,7 +22,7 @@
     position: relative;
     padding: 0.5rem;
     padding-left: 2rem;
-    border-radius: 0.3rem;
+    border-radius: 0.5rem;
 }
 .searchForm input{
     background-color: hsl(243, 23%, 30%);
@@ -37,6 +37,16 @@
 .searchForm img{
     position: absolute;
     left: 3%;
-
     width: 1rem;
+}
+
+@media(max-width:720px)
+{
+    .searchForm{
+        flex-direction: column;
+        width: 100%;
+    }
+    .searchForm>button{
+        padding: 1rem 0;
+    }
 }

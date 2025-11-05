@@ -18,9 +18,6 @@ const HourlyForecast=({times,temperatures,weather})=>{
         <div className={classes.hourlyForecast}>
         <div>
             <p>Hourly forecast</p>
-        
-
-
         </div>
             {hourlyForecastList}
         </div>

@@ -16,7 +16,30 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
 }
 .horizontalCont>p{
     font-size: 4rem;
+}
+.location{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.horizontalCont>img{
+    width: 4rem;
+}
+
+@media(max-width:720px)
+{
+    .weatherPanel{
+        padding: 2rem 0;
+        flex-direction: column;
+    }
+    .horizontalCont{
+        width: 80%;
+    }
+    .horizontalCont img{
+        width: 6rem;
+    }
+
 }

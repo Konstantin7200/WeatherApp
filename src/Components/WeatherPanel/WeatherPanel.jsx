@@ -37,11 +37,11 @@ const WeatherPanel = ({ location, date, weather, temperature }) => {
   return (
     <div className={classes.weatherPanel}>
       <div>
-        <p>{location}</p>
+        <p className={classes.location}>{location}</p>
         <p>{date}</p>
       </div>
       <div className={classes.horizontalCont}>
-        <img src={getWeather(weather)} alt="weather-icon" style={{width:4+"rem"}}/>
+        <img src={getWeather(weather)} alt="weather-icon"/>
         <p>{temperature}°</p>
       </div>
     </div>

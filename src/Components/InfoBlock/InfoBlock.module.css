@@ -12,5 +12,13 @@
   align-items: start;
 }
 .info{
-  font-size: 1.2rem;
+  font-size: 1.8em;
+}
+
+@media(max-width:720px)
+{
+  .infoBlock{
+    width:100%;
+    font-size: 1rem;
+  }
 }

@@ -3,6 +3,7 @@
     flex-direction: column;
     background-color:hsl(243, 23%, 24%);
     gap:0.5rem;
-    padding: 1rem;
+    padding: 0.5rem;
     border-radius: 0.5rem;
 }
+

@@ -18,3 +18,14 @@
   width: 3rem;
 }
 
+
+@media(max-width:720px)
+{
+  .dailyForecastBlock{
+    width: 100%;
+  }
+  .horizontalCont{
+    padding: 0 2rem;
+  }
+}
+

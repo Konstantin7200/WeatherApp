@@ -55,13 +55,17 @@ useEffect(()=>{
   return (
     <div className="App">
       <SearchForm setCoordinates={setCoordinates}/>
-      <div>
-      <div>
-      <WeatherInfo temperature_2m={APIData.current.temperature_2m} time={APIData.current.time} weather_code={APIData.current.weather_code} precipitation={APIData.current.precipitation} humidity={APIData.current.relative_humidity_2m} windSpeed={APIData.current.wind_speed_10m} feelsLike={APIData.current.apparent_temperature} location={location}/>
-      <DailyForecast day={new Date(APIData.daily.time[0]).getDay()} minTemperatures={APIData.daily.temperature_2m_min} maxTemperatures={APIData.daily.temperature_2m_max} weather={APIData.daily.weather_code}/>
+      <div className="mainPart">
+        <div className="weatherInfo">
+          <WeatherInfo temperature_2m={APIData.current.temperature_2m} time={APIData.current.time} weather_code={APIData.current.weather_code} precipitation={APIData.current.precipitation} humidity={APIData.current.relative_humidity_2m} windSpeed={APIData.current.wind_speed_10m} feelsLike={APIData.current.apparent_temperature} location={location}/>
+        </div>
+        <div className="dailyForecast">
+          <DailyForecast day={new Date(APIData.daily.time[0]).getDay()} minTemperatures={APIData.daily.temperature_2m_min} maxTemperatures={APIData.daily.temperature_2m_max} weather={APIData.daily.weather_code}/>
+        </div>
+        <div className="hourlyForecast">
+          <HourlyForecast times={APIData.hourly.time} temperatures={APIData.hourly.temperature_2m} weather={APIData.hourly.weather_code}/>
+        </div>
       </div>
-      <HourlyForecast times={APIData.hourly.time} temperatures={APIData.hourly.temperature_2m} weather={APIData.hourly.weather_code}/>
-    </div>
     </div>
   );
 }
